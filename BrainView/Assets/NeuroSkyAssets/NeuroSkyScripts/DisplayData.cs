@@ -50,6 +50,53 @@ public class DisplayData : MonoBehaviour
 
 		Debug.Log ("Start() Done!");
 	}
+	public float LowAlpha{
+		get{
+		return this.lowalpha;
+		}
+	}
+
+	public float HighAlpha{
+		get{
+			return this.highalpha;
+		}
+	}
+
+	public float LowBeta{
+		get{
+			return this.lowbeta;
+		}
+	}
+
+	public float HighBeta{
+		get{
+			return this.highbeta;
+		}
+	}
+
+	public float LowGamma{
+		get{
+			return this.lowgamma;
+		}
+	}
+
+	public float HighGamma{
+		get{
+			return this.highgamma;
+		}
+	}
+
+	public float Theta{
+		get{
+			return this.theta;
+		}
+	}
+
+	public float Delta{
+		get{
+			return this.delta;
+		}
+	}
 
 	void OnUpdatePoorSignal(int value){
 		Debug.Log ("OnUpdatePoorSignal()...");
