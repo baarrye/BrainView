@@ -116,7 +116,6 @@ public class DisplayData : MonoBehaviour
 		//Debug.Log ("OnGui()...");
 
 		GUILayout.BeginHorizontal();
-
 		/*
 		if (GUILayout.Button("Connect"))
 		{
@@ -128,7 +127,7 @@ public class DisplayData : MonoBehaviour
 			indexSignalIcons = 1;
 		}*/
 
-		GUILayout.Space(Screen.width-40);
+		GUILayout.Space(Screen.width-50);
 		GUILayout.Label(signalIcons[indexSignalIcons]);
 
 		GUILayout.EndHorizontal();
