@@ -20,7 +20,6 @@ public class TGCConnectionController : MonoBehaviour {
 	public event UpdateIntValueDelegate UpdateMeditationEvent;
 	public event UpdateIntValueDelegate UpdateRawdataEvent;
 	public event UpdateIntValueDelegate UpdateBlinkEvent;
-	
 	public event UpdateFloatValueDelegate UpdateDeltaEvent;
 	public event UpdateFloatValueDelegate UpdateThetaEvent;
 	public event UpdateFloatValueDelegate UpdateLowAlphaEvent;
