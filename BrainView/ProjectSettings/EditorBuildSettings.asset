@@ -5,5 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/FuguMaze.unity
+    guid: cb64b592b97a94839b2128e77c91a342
+  - enabled: 1
+    path: Assets/StartForm.unity
+    guid: 619ade025de104c4fbba75a9e832ddd8
