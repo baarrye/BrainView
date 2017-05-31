@@ -72,6 +72,7 @@ public class DisplayData : MonoBehaviour
 	}
 	void OnUpdateMeditation(int value){
 		meditation1 = value;
+		Debug.Log ("metodo");
 	}
 	void OnUpdateBlink(int value){
 		blink = value;
@@ -115,7 +116,6 @@ public class DisplayData : MonoBehaviour
 		//Debug.Log ("OnGui()...");
 
 		GUILayout.BeginHorizontal();
-
 		/*
 		if (GUILayout.Button("Connect"))
 		{
@@ -127,12 +127,12 @@ public class DisplayData : MonoBehaviour
 			indexSignalIcons = 1;
 		}*/
 
-		GUILayout.Space(Screen.width-40);
+		GUILayout.Space(Screen.width-50);
 		GUILayout.Label(signalIcons[indexSignalIcons]);
 
 		GUILayout.EndHorizontal();
 
-
+		/*
 		GUILayout.Label("PoorSignal1:" + poorSignal1);
 		GUILayout.Label("Attention1:" + attention1);
 		GUILayout.Label("Meditation1:" + meditation1);
@@ -145,6 +145,6 @@ public class DisplayData : MonoBehaviour
 		GUILayout.Label("High Gamma:" + highgamma);
 		GUILayout.Label ("Theta:" + theta);
 		GUILayout.Label("Delta:" + delta);
-
+	*/
 	}
 }
